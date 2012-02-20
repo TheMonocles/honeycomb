@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Welcome To The Beyst Map Generator!</string>
     <string name="app_name">Map Generator</string>
+    <string name="hello">Main Menu</string>
+    <string name="strNewGame">New Game</string>
+    <string name="strLoadGame">Load Game</string>
+    <string name="strOptions">Options</string>
+    <string name="StrGenerate">Generate Map</string>
+    <string name="strReturn">Return</string>
+
 
 </resources>

@@ -5,30 +5,24 @@
     android:orientation="vertical" >
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:text="@string/hello" />
-
+    
     <Button
-        android:id="@+id/generate"
+        android:id="@+id/New_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Generate New Map" />
-
+        android:text="@string/strNewGame" />
     <Button
-        android:id="@+id/loadmap"
+        android:id="@+id/Load_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Load Map" />
-
+        android:text="@string/strLoadGame" />
     <Button
-        android:id="@+id/exit"
+        android:id="@+id/Options_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="end"
-        android:text="Exit" />
+        android:text="@string/strOptions" />
 
 </LinearLayout>

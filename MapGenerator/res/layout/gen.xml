@@ -7,8 +7,7 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/strNewGame" />
-
+        android:text="@string/strNewGame" />
     <Button
         android:id="@+id/Gen_button"
         android:layout_width="match_parent"
