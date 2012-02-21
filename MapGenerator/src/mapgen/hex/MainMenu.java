@@ -21,6 +21,13 @@ public class MainMenu extends Activity {
 				MainMenu.this.startActivity(Generate);
 			}
 		});   
+      /*final Button button2 = (Button) findViewById(R.id.Back_button); 
+        button.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				MainMenu.this.finish();
+			}
+		}); */ 
+        
     }
     //public void onBackPressed() {return;}
 }

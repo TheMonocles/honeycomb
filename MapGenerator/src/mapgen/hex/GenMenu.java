@@ -16,7 +16,9 @@ public class GenMenu extends MainMenu {
         
         final Button button = (Button) findViewById(R.id.Back_button); 
         button.setOnClickListener(new View.OnClickListener() {
-			public void onClick(View v) {return;}
+			public void onClick(View v) {
+				GenMenu.this.finish();
+			}
 		}); 
     }
     //public void onBackPressed() {return;}
